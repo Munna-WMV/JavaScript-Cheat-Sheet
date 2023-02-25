@@ -1,0 +1,66 @@
+1. typeof()
+Variable এর ধরণ নির্ধারণ করে। 
+
+2. toString()
+String ডেটা টাইপে রুপান্তর করে। 
+
+3. parseInt()
+Integer ডেটা টাইপে রুপান্তর করে। 
+
+4. parseFloat()
+Float ডেটা টাইপে রুপান্তর করে। 
+
+5. Number()
+Number ডেটা টাইপে রুপান্তর করে। 
+
+6. toFixed()
+দশমিকের পরে কত ঘর প্রদর্শন করবে তা নির্দেশ করে। 
+
+7. toPrecision()
+মোট সংখ্যার কত ঘর প্রদর্শন করবে তা নির্দেশ করে। 
+
+8. Adding multiple string
+var name = "Mohsin Hassan";
+console.log("My name is " + name + "Munna");
+
+9. varName.length
+কোনো variable এর কতটি ডিজিট বা অক্ষর আছে তা নির্দেশ করে। 
+
+*** Note: length এর পরে   ()   নেই। 
+
+10. charAt(paraMeter)
+প্যারামিটারের নাম্বার অনুসারে আউটপুট প্রদর্শন করবে। 
+*** Note: charAt() প্যারামিটারের ইনডেক্স নাম্বার ০ থেকে শুরু হয়। 
+
+11. toUpperCase()
+
+12. toLowerCase()
+
+13. concat()
+concate মানে হলো যুক্ত করা। 
+Syntax: যার সাথে যুক্ত করতে চান concat(যাকে যুক্ত করতে চান)
+
+Example: 
+var name1 = "Moshin Hassan";
+var name2 = "Munna";
+var fullName = name1.concat(name2);
+
+14. slice()
+Syntax: varName.slice(beginning_value, ending_value);
+Example: 
+var name = "Multiplication";
+var newVar = name.slice(1, 5);
+
+Output: ulti
+
+15. Ternary Operator : 
+Single condition check syntax: num>0 ? "Positive Number" : "Negative Number"; 
+Multiple condition check syntax: num>0 ? "Positive Number" : num<0 ? "Negative Number" : "Zero";
+
+16. push()
+-- For adding new data in array. 
+Syntax: varName.push(dataValue);
+
+17. pop()
+-- For removing a data from array. 
+Syntax: varName.pop(dataValue);
